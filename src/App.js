@@ -17,7 +17,6 @@ function App() {
 
     try {
       let colors = new Values(color).all(10);
-      console.log(colors);
       setError(false);
       setList(colors);
     } catch (err) {
