@@ -13,7 +13,7 @@ const Color = ({ rgb, hexColor, weight, index }) => {
     return () => clearTimeout(timeout);
   }, [alert]);
 
-  const bcg = rgb.join(",");
+  const bcg = rgb.join(',');
   //   const hex = rgbToHex(...rgb);
   const hexValue = `#${hexColor}`;
 
