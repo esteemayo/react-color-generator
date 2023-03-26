@@ -42,7 +42,7 @@ function App() {
         </form>
       </section>
 
-      <section className="colors">
+      <section className='colors'>
         {list.map((color, index) => (
           <Color key={index} {...color} index={index} hexColor={color.hex} />
         ))}
