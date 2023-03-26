@@ -177,7 +177,7 @@ input {
 }
 
 .btn {
-  background: var(--clr-primary-5);
+  background-color: var(--clr-primary-5);
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
   border-color: transparent;
