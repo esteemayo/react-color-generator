@@ -32,6 +32,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           <Input
             type='text'
+            value={color}
             placeholder='#f15025'
             value={color}
             onChange={(e) => setColor(e.target.value)}
