@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Input = ({ error, ...rest }) => {
   return <input {...rest} className={`${error ? "error" : null}`} />;
