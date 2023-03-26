@@ -28,9 +28,9 @@ const Color = ({ rgb, hexColor, weight, index }) => {
       className={`color ${index > 10 && 'color-light'}`}
       style={{ backgroundColor: `rgb(${bcg})` }}
     >
-      <p className="percent-value">{weight}</p>
-      <p className="color-value">{hexValue}</p>
-      {alert && <p className="alert">Copied to clipboard</p>}
+      <p className='percent-value'>{weight}</p>
+      <p className='color-value'>{hexValue}</p>
+      {alert && <p className='alert'>Copied to clipboard</p>}
     </article>
   );
 };
