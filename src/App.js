@@ -37,7 +37,6 @@ function App() {
             onChange={(e) => setColor(e.target.value)}
             error={error}
           />
-
           <Button label='Submit' />
         </form>
       </section>
