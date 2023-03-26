@@ -45,8 +45,13 @@ function App() {
       <section className='colors'>
         {list.map((color, index) => {
           return (
-            <Color key={index} {...color} index={index} hexColor={color.hex} />
-          )
+            <Color
+              key={index}
+              {...color}
+              index={index}
+              hexColor={color.hex}
+            />
+          );
         })}
       </section>
     </>
