@@ -5,7 +5,7 @@ import Color from './components/Color';
 import Input from './components/Input';
 import Button from './components/Button';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   const [color, setColor] = useState("");
