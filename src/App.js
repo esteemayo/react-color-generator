@@ -38,7 +38,7 @@ function App() {
             error={error}
           />
 
-          <Button label="Submit" />
+          <Button label='Submit' />
         </form>
       </section>
 
