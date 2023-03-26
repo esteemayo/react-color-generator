@@ -31,8 +31,8 @@ function App() {
         <h3>Color Generator</h3>
         <form onSubmit={handleSubmit}>
           <Input
-            type="text"
-            placeholder="#f15025"
+            type='text'
+            placeholder='#f15025'
             value={color}
             onChange={(e) => setColor(e.target.value)}
             error={error}
