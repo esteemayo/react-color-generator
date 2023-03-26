@@ -3,7 +3,7 @@ import Values from 'values.js';
 
 import Color from 'components/Color';
 import Input from 'components/Input';
-import Button from './components/Button';
+import Button from 'components/Button';
 
 import './App.css';
 
