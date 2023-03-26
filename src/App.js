@@ -1,6 +1,5 @@
 import Values from 'values.js';
 import { useState } from 'react';
-import Values from 'values.js';
 
 import Color from 'components/Color';
 import Button from 'components/Button';
